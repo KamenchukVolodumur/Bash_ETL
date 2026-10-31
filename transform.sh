@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 transform_rank_countries() {
     local raw_dir="$1"

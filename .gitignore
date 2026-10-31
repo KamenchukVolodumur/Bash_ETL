@@ -2,7 +2,14 @@
 *.swp
 *.swo
 
+# OS
+.DS_Store
+**/.DS_Store
+
+# Logs
+logs/
+*.log
+
 # Generated data
 data/output/
 data/raw/
-

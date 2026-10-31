@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 source ./chron.sh
 source ./utils.sh
@@ -21,6 +21,10 @@ GROUP="countries"
 
 while [[ $# -gt 0 ]]; do
   case "$1" in
+    -h|--help)
+      usage
+      exit 0
+      ;;
     --no-color)
       NO_COLOR=1
       shift

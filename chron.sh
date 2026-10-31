@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 CRON_CMD="0 2 1 * * /usr/bin/bash '$SCRIPT_DIR/main.sh' >> '$SCRIPT_DIR/logs/cron.log' 2>&1"
